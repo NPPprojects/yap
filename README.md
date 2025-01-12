@@ -1,3 +1,18 @@
+#Neepo's Input 
+ShellGPT is already pretty good, but there are a couple of things I don't like (such as the name).
+Planning on doing the following changes.
+1. Invoke by calling yap instead of sgpt. LLMs yap a lot and that should be reflected.
+2. Price per query. Kind of surprised that isn't part of the settings. I like to know how much money I'm burning, everytime I forget the most basic shortcut imaginable.
+3. Remove quotation marks per query. Having to do "" is just strain on my hands I don't need. 
+It's a pretty easy to do change, if it's just a case of sending prompts, but the repo makes use of special character use for some really cool functions, and I'm not sure if both are supportable (but they should right? Come on the shell cap can't be that).
+4. Model changing is frustrating atm, I just want easy switch between gpt-4o and mini having to type it out everyrtime is annoying. 
+Default should probs be mini anyway, for shortcuts its about as good.
+5. The code for setting roles, specifically default roles is mom's spaghetti.
+Surely setting the default can be done in .json .yaml file alongside a bunch of other things.
+6. Internet browsing would be kind of clutch for things like ZED IDE which is amazing, but gets updated constantly. 
+Like using a prefix for an online search (As delegating paid compute when you know what you want is silly). 
+ 
+
 # ShellGPT
 A command-line productivity tool powered by AI large language models (LLM). This command-line tool offers streamlined generation of **shell commands, code snippets, documentation**, eliminating the need for external resources (like Google search). Supports Linux, macOS, Windows and compatible with all major Shells like PowerShell, CMD, Bash, Zsh, etc.
 
