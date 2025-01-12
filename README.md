@@ -1,4 +1,4 @@
-#Neepo's Input 
+# Neepo's Input 
 ShellGPT is already pretty good, but there are a couple of things I don't like (such as the name).
 Planning on doing the following changes.
 1. Invoke by calling yap instead of sgpt. LLMs yap a lot and that should be reflected.
